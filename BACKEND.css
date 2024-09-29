@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Very light grey background */
+    background-image: url('ITSolution.jpeg'); /* Add background image */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-attachment: fixed; /* Keep the background fixed during scroll */
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for better readability */
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 5, 5);
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background-color: #f1c40f;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d4ac0d;
+}
+
+/* Services Section */
+#services {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(249, 249, 249, 0.9); /* Slightly transparent for blending with background */
+}
+
+#services h2 {
+    margin-bottom: 2rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 1;
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent for consistency */
+    color: white;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(249, 249, 249, 0.9); /* Slightly transparent */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #f1c40f;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d4ac0d;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent for consistency */
+    color: white;
+    text-align: center;
+}
